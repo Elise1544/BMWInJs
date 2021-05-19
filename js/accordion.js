@@ -18,11 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
         featureSubElems[i].classList.remove('hidden');
         featureLinkElems[i].classList.add('feature__link_active');
       }
-
-      // for (let j = 0; j < featureLinkElems.length; j++) {
-      //   featureSubElems[j].classList.remove('hidden');
-      //   featureLinkElems[j].classList.add('feature__link_active');
-      // }
     })
   }
 
